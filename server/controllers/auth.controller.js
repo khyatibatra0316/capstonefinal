@@ -35,7 +35,7 @@ export const register = async (req, res) => {
         subject:"Welcome to eBookify",
         text:`Welcome to eBookify, your account has been created with email id ${email}`
     }
-    // await transporter.sendMail(mailOptions);
+    // await transporter.sendMail(mailOptions)
     return res.json({ success: true });
 
   } catch (error) {
