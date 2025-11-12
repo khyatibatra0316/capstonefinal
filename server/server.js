@@ -3,8 +3,7 @@ import cors from "cors";
 import 'dotenv/config';
 import cookieparser from "cookie-parser";
 import connectDB from './config/mongodb.js'
-import authRouter from './routes/authRoutes.js'
-
+import authRouter from "./routes/authRoutes.js"; 
 
 
 const app=express();
